@@ -1,0 +1,58 @@
+html, body {
+    min-height:100%;
+}
+  
+body {
+    background-image: url("../images/Jeopardy2.JPG");
+    text-align: center;
+}
+  
+#wrapper {
+    margin: 2.5% auto;
+    background-color: yellow;
+    width: 960px;
+    height: 95%;
+}
+  
+#wrap {
+    position: relative;
+}
+
+button {
+    display: block;
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 42px;;
+}
+  
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color:blue;
+    padding-top: 2.5%;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+  
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  
+#start {
+    font-family: cursive;
+    margin-top: 10%;
+    border:2px solid blue;
+    background: pink;
+}
+  
+button:hover {
+    border:2px solid blue;
+    background: pink;
+}
